@@ -15,3 +15,9 @@
 -- +------+-----------------------------------+------+
 
 
+SELECT year, name, wins
+FROM teams
+ORDER BY wins
+LIMIT 5
+;
+
